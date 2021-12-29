@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js"></script>
+    <style>
+        @font-face {
+            font-family: 'retro_gaming0';
+            src: url('vhs.ttf');
+        }
+
+        * {
+            font-family: 'retro_gaming0';
+        }
+
+        body {
+            display: none;
+        }
+
+        #axon_container {
+            float: right;
+            width: auto;
+            text-align: right;
+            background-color: rgba(0,0,0,0.5);
+            padding: 5px;
+            margin: 10px;
+            -moz-border-radius: 10px;
+            -webkit-border-radius:10px;
+            border-radius:10px;
+        }
+
+        #axon_contents {
+            border-radius: 5px;
+            padding: 10px 100px 10px 10px;
+            position: relative;
+            text-align: center;
+        }
+
+        #axon_logo {
+            max-height: 76px;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+
+        #job, #time {
+            color: #fff;
+            display: block;
+            text-align: center;
+            text-shadow: 1px 1px 1px rgba(0,0,0, 0.7);
+        }
+
+        #job {
+            font-size: 135%;
+        }
+
+        #time {
+            font-size: 135%;
+            top: 90px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="axon_container">
+        <div id="axon_contents">
+            <img src="axon_blank.png" id="axon_logo">
+            <font id="job">
+                SWAT.
+                HUGO
+                ZIP</font>
+            <br />
+            <font id="time">
+                08/01/2019 8:55:48
+                AM</font>
+        </div>
+    </div>
+</body>
+</html>
